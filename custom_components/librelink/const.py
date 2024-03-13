@@ -10,11 +10,12 @@ ATTRIBUTION = "Data provided by https://libreview.com"
 LOGIN_URL = "/llu/auth/login"
 CONNECTION_URL = "/llu/connections"
 COUNTRY = "Country"
-COUNTRY_LIST = ["Global", "Russia", "Canada"]
+COUNTRY_LIST = ["Global", "Russia", "Canada", "Deutchland"]
 BASE_URL_LIST = {
     "Global": "https://api.libreview.io",
     "Russia": "https://api.libreview.ru",
     "Canada": "https://api-ca.libreview.io",
+    "Deutchland": "https://api-de.libreview.io",
 }
 PRODUCT = "llu.android"
 VERSION_APP = "4.7"
